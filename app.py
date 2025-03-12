@@ -4,6 +4,12 @@ import pandas as pd
 
 def main():
     st.title("LogBook Converter")
+
+    # Código de verificación de Google AdSense
+    st.markdown("""
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9397947416042281" crossorigin="anonymous"></script>
+    """, unsafe_allow_html=True)
+    
     st.write("Sube tu archivo XLS para convertirlo a un PDF rellenado.")
     
     # Subida del archivo XLS
