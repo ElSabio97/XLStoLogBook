@@ -5,20 +5,7 @@ import pandas as pd
 def main():
     st.title("LogBook Converter")
 
-# Código de verificación y anuncio de Google AdSense usando components.html
-    adsense_code = """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9397947416042281" crossorigin="anonymous"></script>
-    <!-- Anuncio de prueba o unidad real, reemplaza con tu código de "Por unidad de anuncio" -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-9397947416042281"
-         data-ad-slot="TU_SLOT"  <!-- Reemplaza con el slot de tu unidad de anuncio -->
-         data-ad-format="auto"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    """
-    components.html(adsense_code, height=100)  # Ajusta la altura según el tamaño del anuncio
+
     
     st.write("Sube tu archivo XLS para convertirlo a un PDF rellenado.")
     
